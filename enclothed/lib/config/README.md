@@ -1,4 +1,4 @@
-# Themes Folder
+# Config Folder
 ## This Folder contains the following folders:
 
 ### 1. Routes
