@@ -1,5 +1,6 @@
-# Design System
+Figma URL: https://www.figma.com/file/F0JUyJAhZM2JZqvAXMsR41/Web-enclothed?node-id=102%3A44
 
+# Design System
 All the design has been generated with [tailwindcss](https://tailwindcss.com/).
 Find all the theme related configuration inside tailwind.config.js
 
