@@ -34,6 +34,28 @@ function App() {
 				</a>
 			</header>
 			<body className='App-body'>
+				<div className='transfer-face'>
+					<text>Transfer Face</text>
+					<br></br>
+					<input type="file" id="actual-btn" hidden />
+					<label for="actual-btn">Upload Image</label>
+				</div>
+				<br></br>
+				<div className='Fiting'>
+					<text>Fiting</text>
+					<br></br>
+					<input type="file" id='actual-btn' hidden />
+					<label for='actual-btn'>Go to online stores</label>
+					<br></br>
+					<input type="file" id='actual-btn' hidden />
+					<label for='actual-btn'>Upload Clothes</label>
+				</div>
+				<br></br>
+				<div className='Try On'>
+					<GradientButton theme='Azure Pop' color='#FF4AED' fontSize='18px'>
+						Try On
+					</GradientButton>
+				</div>
 			</body>
 		</div>
 	);

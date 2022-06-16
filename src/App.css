@@ -53,6 +53,25 @@ li, a, button {
   color: aqua;
 }
 
+label {
+  background-color: #F4F4F4;
+  color: #A9A8A8;
+  width: 190px;
+  height: 33px;
+  left: 20px;
+  top: 20px;
+  padding: 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  mix-blend-mode: normal;
+  margin-left: 1000px;
+}
+
+label:hover {
+  background-color: #B85EFF;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
