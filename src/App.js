@@ -14,20 +14,20 @@ function App() {
 				<nav>
 					<ul class='nav-links'>
 						<li>
-							<a href='#'>Home</a>
+							<a href='Home'>Home</a>
 						</li>
 						<li>
-							<a href='#'>How It Works</a>
+							<a href='HowItWorks'>How It Works</a>
 						</li>
 						<li>
-							<a href='#'>About Us</a>
+							<a href='AboutUs'>About Us</a>
 						</li>
 						<li>
-							<a href='#'>Watch Demo</a>
+							<a href='WatchDemo'>Watch Demo</a>
 						</li>
 					</ul>
 				</nav>
-				<a className='cta' href='#'>
+				<a className='cta' href='Register'>
 					<GradientButton theme='Azure Pop' color='#FF4AED' fontSize='18px'>
 						Register
 					</GradientButton>
