@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "static/css/main.46199171.css",
+	"mappings": "AAAA,KAKE,kCAAmC,CACnC,iCAAkC,CAJlC,mIAEY,CAHZ,QAMF,CAEA,KACE,uEAEF,CCZA,KAIE,qBAAyB,CAHzB,sBAAkB,CAAlB,kBAAkB,CAClB,QAAS,CACT,SAEF,CAEA,YAEE,cAAe,CACf,eAAgB,CAFhB,iBAGF,CACA,KACE,gBACF,CAEA,YAIE,aAAc,CAHd,sCAAwC,CAExC,cAAe,CADf,eAAgB,CAGhB,oBACF,CAEA,YAKE,kBAAkB,CAJlB,YAAY,CAEZ,kBAAsB,CACtB,wBAAyB,CAFzB,QAAe,CAIf,YACF,CAEA,WACE,eACF,CACA,cACE,oBAAqB,CACrB,iBACF,CACA,gBACE,0BACF,CACA,sBACE,aACF,CAEA,UACE,UACF,CACA,UACE,aAAc,CACd,mBACF,CAEA,8CACE,UACE,mDAA4C,CAA5C,2CACF,CACF,CAEA,iCACE,GACE,8BAAuB,CAAvB,sBACF,CACA,GACE,+BAAyB,CAAzB,uBACF,CACF,CAPA,yBACE,GACE,8BAAuB,CAAvB,sBACF,CACA,GACE,+BAAyB,CAAzB,uBACF,CACF",
+	"sources": [
+		"index.css",
+		"App.css"
+	],
+	"sourcesContent": [
+		"body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n",
+		".App {\n  box-sizing:initial;\n  margin: 0;\n  padding: 0;\n  background-color: #ffffff;\n}\n\n.site-title{\n  margin-right: auto;\n  font-size: 10vh;\n  font-weight: 400;\n}\n.cta{\n  margin-left: 20px;\n}\n\nli, a, button {\n  font-family:Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  font-size: 20px;\n  color: #515455;\n  text-decoration: none;\n}\n\n.App-header {\n  display:flex;\n  margin: 0px 0px;\n  flex-direction:initial;\n  justify-content: flex-end;\n  align-items:center;\n  padding: 0px 4%;\n}\n\n.nav-links{\n  list-style: none;\n}\n.nav-links li{\n  display: inline-block;\n  padding: 10px 30px;\n}\n.nav-links li a {\n  transition: all 0.3s ease 0s;\n}\n.nav-links li a:hover {\n  color:#FF4AED;\n}\n\n.App-link {\n  color: aqua;\n}\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"
+	],
+	"names": [],
+	"sourceRoot": ""
+}
