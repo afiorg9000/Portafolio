@@ -53,18 +53,30 @@ li, a, button {
   color: aqua;
 }
 
+.upload-profile-photo {
+  margin-right: 175px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.upload-text {
+  margin-right: 181px;
+  text-align: right;
+  font-size: 11px;
+}
+
 label {
   background-color: #F4F4F4;
   color: #A9A8A8;
   width: 190px;
-  height: 33px;
-  left: 20px;
-  top: 20px;
   padding: 0.5rem;
   border-radius: 25px;
   cursor: pointer;
   mix-blend-mode: normal;
-  margin-left: 1000px;
+  margin-left: 1175px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
 }
 
 label:hover {

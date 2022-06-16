@@ -34,21 +34,25 @@ function App() {
 				</a>
 			</header>
 			<body className='App-body'>
-				<div className='transfer-face'>
-					<text>Transfer Face</text>
-					<br></br>
-					<input type="file" id="actual-btn" hidden />
-					<label for="actual-btn">Upload Image</label>
+				<div className='upload-profile-photo'>
+					<text>Upload Profile Photo</text>
 				</div>
+				<br />
+				<div className='upload-text'>
+					<text>Upload a photo of your face for<br />it to be included in your virtual</text>
+				</div>
+				<br />
+				<input type="file" id="actual-btn" hidden />
+				<label for="actual-btn">Upload</label>
 				<br></br>
 				<div className='Fiting'>
 					<text>Fiting</text>
 					<br></br>
 					<input type="file" id='actual-btn' hidden />
-					<label for='actual-btn'>Go to online stores</label>
+					<label for='actual-btn'>Upload Clothes</label>
 					<br></br>
 					<input type="file" id='actual-btn' hidden />
-					<label for='actual-btn'>Upload Clothes</label>
+					<label for='actual-btn'>Go to online stores</label>
 				</div>
 				<br></br>
 				<div className='Try On'>
