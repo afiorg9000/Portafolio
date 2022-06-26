@@ -1,106 +1,87 @@
 .App {
-  box-sizing: initial;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
+    box-sizing: initial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
 }
 
 .site-title {
-  margin-right: auto;
-  font-size: 10vh;
-  font-weight: 400;
+    margin-right: auto;
+    font-size: 10vh;
+    font-weight: 400;
 }
 
 .cta {
-  margin-left: 20px;
+    margin-left: 30px;
 }
 
-li, a, button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: #515455;
-  text-decoration: none;
+li,
+a,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #515455;
+    text-decoration: none;
 }
 
 .App-header {
-  display: flex;
-  margin: 0px 0px;
-  flex-direction: initial;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0px 4%;
+    display: flex;
+    margin: 0px 0px;
+    flex-direction: initial;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 4%;
 }
 
 .nav-links {
-  list-style: none;
+    list-style: none;
 }
 
 .nav-links li {
-  display: inline-block;
-  padding: 10px 30px;
+    display: inline-block;
+    padding: 10px 30px;
 }
 
 .nav-links li a {
-  transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .nav-links li a:hover {
-  color: #FF4AED;
+    color: #FF4AED;
 }
 
 .App-link {
-  color: aqua;
+    color: aqua;
 }
 
 .upload-profile-photo {
-  margin-right: 175px;
-  text-align: right;
-  font-size: 18px;
+    margin-right: 175px;
+    text-align: right;
+    font-size: 18px;
 }
 
 .upload-text {
-  margin-right: 181px;
-  text-align: right;
-  font-size: 11px;
+    margin-right: 181px;
+    text-align: right;
+    font-size: 11px;
 }
 
 label {
-  background-color: #F4F4F4;
-  color: #A9A8A8;
-  width: 190px;
-  padding: 0.5rem;
-  border-radius: 25px;
-  cursor: pointer;
-  mix-blend-mode: normal;
-  margin-left: 1175px;
-  display: block;
-  text-align: center;
-  font-size: 14px;
+    background-color: #F4F4F4;
+    color: #A9A8A8;
+    width: 190px;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    mix-blend-mode: normal;
+    margin-left: 1175px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
 }
 
 label:hover {
-  background-color: #B85EFF;
-  color: white;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+    background-color: #B85EFF;
+    color: white;
 }

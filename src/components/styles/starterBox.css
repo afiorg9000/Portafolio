@@ -1,0 +1,314 @@
+.starter-box {
+	position: absolute;
+	width: 520px;
+	height: 550px;
+	left: 990px;
+	top: 150px;
+	padding: 1rem;
+	box-sizing: border-box;
+	border: 3px solid #f7f7f7;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+	overflow-y: auto;
+	direction: ltr;
+	scrollbar-width: thin;
+}
+
+.starter-box::-webkit-scrollbar {
+	/*Made Scrollbar invisible*/
+	width: 0px;
+}
+
+.starter-pack {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #696666;
+}
+
+.select-text {
+	position: absolute;
+	font-style: normal;
+	top: 40px;
+	left: 170px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 13px;
+	color: #696666;
+}
+
+.box1 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 20px;
+	top: 80px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box1:hover {
+	border: 3px solid #b85eff;
+}
+
+.box2 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 180px;
+	top: 80px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box2:hover {
+	border: 3px solid #b85eff;
+}
+
+.box3 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 340px;
+	top: 80px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box3:hover {
+	border: 3px solid #b85eff;
+}
+
+.box4 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 20px;
+	top: 265px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box4:hover {
+	border: 3px solid #b85eff;
+}
+
+.box5 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 180px;
+	top: 265px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box5:hover {
+	border: 3px solid #b85eff;
+}
+
+.box6 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 340px;
+	top: 265px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box6:hover {
+	border: 3px solid #b85eff;
+}
+
+.box7 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 20px;
+	top: 450px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box7:hover {
+	border: 3px solid #b85eff;
+}
+
+.box8 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 180px;
+	top: 450px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box8:hover {
+	border: 3px solid #b85eff;
+}
+
+.box9 {
+	box-sizing: border-box;
+	position: absolute;
+	position: absolute;
+	width: 143px;
+	height: 167px;
+	left: 340px;
+	top: 450px;
+	border: 3px solid #F4F4F4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box9:hover {
+	border: 3px solid #b85eff;
+}
+
+.Try-On {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 1210px;
+	top: 705px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+	/* For tablets: */
+	.col-s-1 {
+		width: 8.33%;
+	}
+
+	.col-s-2 {
+		width: 16.66%;
+	}
+
+	.col-s-3 {
+		width: 25%;
+	}
+
+	.col-s-4 {
+		width: 33.33%;
+	}
+
+	.col-s-5 {
+		width: 41.66%;
+	}
+
+	.col-s-6 {
+		width: 50%;
+	}
+
+	.col-s-7 {
+		width: 58.33%;
+	}
+
+	.col-s-8 {
+		width: 66.66%;
+	}
+
+	.col-s-9 {
+		width: 75%;
+	}
+
+	.col-s-10 {
+		width: 83.33%;
+	}
+
+	.col-s-11 {
+		width: 91.66%;
+	}
+
+	.col-s-12 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	/* For desktop: */
+	.col-1 {
+		width: 8.33%;
+	}
+
+	.col-2 {
+		width: 16.66%;
+	}
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.col-5 {
+		width: 41.66%;
+	}
+
+	.col-6 {
+		width: 50%;
+	}
+
+	.col-7 {
+		width: 58.33%;
+	}
+
+	.col-8 {
+		width: 66.66%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-10 {
+		width: 83.33%;
+	}
+
+	.col-11 {
+		width: 91.66%;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+}
