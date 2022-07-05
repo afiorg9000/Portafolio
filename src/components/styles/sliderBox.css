@@ -2,8 +2,8 @@
 	position: absolute;
 	width: 323px;
 	height: 28px;
-	left: 139px;
-	top: 182px;
+	left: 330px;
+	top: 3550px;
 }
 
 .Female {
@@ -83,10 +83,10 @@
 	transition: all 0.3s ease 0s;
 }
 
-.Genderless:hover {
+/*.Genderless:hover {
 	background-color: #b85eff;
 	color: white;
-}
+}*/
 
 .coming-soon-genderless {
 	position: absolute;
@@ -100,18 +100,20 @@
 	position: absolute;
 	width: 225px;
 	height: 18px;
-	left: 231px;
-	top: 237px;
+	left: 420px;
+	top: 3637px;
 	-webkit-appearance: none;
 	border-radius: 24px;
-	background: linear-gradient(270deg,
-			#e1d9c5 0%,
-			#eed5a4 16.67%,
-			#ccb080 32.81%,
-			#b28627 49.06%,
-			#ab6a29 67.97%,
-			#926a42 83.13%,
-			#523b10 100%);
+	background: linear-gradient(
+		270deg,
+		#e1d9c5 0%,
+		#eed5a4 16.67%,
+		#ccb080 32.81%,
+		#b28627 49.06%,
+		#ab6a29 67.97%,
+		#926a42 83.13%,
+		#523b10 100%
+	);
 	outline: none;
 	opacity: 0.7;
 	-webkit-transition: 0.2s;
@@ -125,22 +127,24 @@
 }
 
 .skin-color-slider::-moz-range-thumb {
-	background: linear-gradient(270deg,
-			#e1d9c5 0%,
-			#eed5a4 16.67%,
-			#ccb080 32.81%,
-			#b28627 49.06%,
-			#ab6a29 67.97%,
-			#926a42 83.13%,
-			#523b10 100%);
+	background: linear-gradient(
+		270deg,
+		#e1d9c5 0%,
+		#eed5a4 16.67%,
+		#ccb080 32.81%,
+		#b28627 49.06%,
+		#ab6a29 67.97%,
+		#926a42 83.13%,
+		#523b10 100%
+	);
 	border-radius: 24px;
 	cursor: pointer;
 }
 
 .skin-color-text {
 	position: absolute;
-	left: 140px;
-	top: 240px;
+	left: 315px;
+	top: 3640px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
@@ -151,17 +155,30 @@
 
 .MuiSlider-root {
 	position: absolute;
-	left: 234px;
-	top: 285px;
+	left: 395px;
+	top: 3685px;
 }
 
 .height-text {
 	position: absolute;
-	left: 145px;
-	top: 304px;
+	left: 315px;
+	top: 3703px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.height-measurement {
+	position: absolute;
+	left: 630px;
+	top: 3703px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -170,11 +187,24 @@
 
 .weight-text {
 	position: absolute;
-	left: 145px;
-	top: 364px;
+	left: 315px;
+	top: 3763px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.weight-measurement {
+	position: absolute;
+	left: 630px;
+	top: 3763px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -183,11 +213,24 @@
 
 .chest-text {
 	position: absolute;
-	left: 145px;
-	top: 424px;
+	left: 315px;
+	top: 3823px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.chest-measurement {
+	position: absolute;
+	left: 630px;
+	top: 3823px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -196,11 +239,24 @@
 
 .waist-text {
 	position: absolute;
-	left: 145px;
-	top: 483px;
+	left: 315px;
+	top: 3883px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.waist-measurement {
+	position: absolute;
+	left: 630px;
+	top: 3883px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -209,11 +265,24 @@
 
 .hips-text {
 	position: absolute;
-	left: 145px;
-	top: 542px;
+	left: 320px;
+	top: 3942px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.hips-measurement {
+	position: absolute;
+	left: 630px;
+	top: 3942px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -222,11 +291,24 @@
 
 .inseam-text {
 	position: absolute;
-	left: 145px;
-	top: 603px;
+	left: 310px;
+	top: 4003px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.inseam-measurement {
+	position: absolute;
+	left: 630px;
+	top: 4003px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
 	line-height: 18px;
 	text-align: center;
 	color: #696666;
@@ -235,8 +317,8 @@
 
 .exercise-text {
 	position: absolute;
-	left: 145px;
-	top: 662px;
+	left: 305px;
+	top: 4063px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
@@ -246,13 +328,25 @@
 	transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.exercise-measurement {
+	position: absolute;
+	left: 625px;
+	top: 4063px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 18px;
+	text-align: center;
+	color: #696666;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
 /* For mobile phones: */
-[class*="col-"] {
+[class*='col-'] {
 	width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
-
 	/* For tablets: */
 	.col-s-1 {
 		width: 8.33%;
@@ -304,7 +398,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
 	/* For desktop: */
 	.col-1 {
 		width: 8.33%;

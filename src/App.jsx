@@ -1,18 +1,15 @@
-import './App.css';
 import React from 'react';
-import { Header } from './components/header';
-import { SliderBox } from './components/sliderBox';
-import { Scene } from './components/scene';
-import { Uploads } from './components/starterBox';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Male, Female } from './Avatars';
 
 function App() {
 	return (
-		<>
-			<Header />
-			<SliderBox />
-			<Scene />
-			<Uploads />
-		</>
+		<Router>
+			<Routes>
+				<Route path='/' element={<Female />}></Route>
+				<Route path='/male' element={<Male />}></Route>
+			</Routes>
+		</Router>
 	);
 }
 

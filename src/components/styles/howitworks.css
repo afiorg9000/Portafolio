@@ -1,0 +1,196 @@
+.OurFeatures-Title {
+	position: absolute;
+	width: 213px;
+	height: 48px;
+	left: 580px;
+	top: 1717px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+
+.Features {
+	position: absolute;
+	width: 213px;
+	height: 48px;
+	left: 690px;
+	top: 1717px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+
+
+.Body-Visualizer-Title {
+	position: absolute;
+	width: 184px;
+	height: 43px;
+	left: 675px;
+	top: 1900px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 177.9%;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+
+.Body-Visualizer-Text {
+	position: absolute;
+	width: 884px;
+	height: 120px;
+	left: 330px;
+	top: 2000px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.01em;
+	text-align: center;
+	color: #505050;
+}
+
+.Explore {
+	position: absolute;
+	width: 191px;
+	height: 50px;
+	left: 666px;
+	top: 2100px;
+	background: linear-gradient(89.94deg, #4AFFE9 -10.63%, #B85EFF 43.84%, #4AFFE9 105.73%);
+	mix-blend-mode: normal;
+	border-radius: 25px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: rgba(253, 255, 255, 0.8);
+	border: 1px;
+	cursor: pointer;
+}
+
+.QRCode {
+	position: absolute;
+	width: 1200px;
+	height: 1100px;
+	left: 140px;
+	top: 2400px;
+	background: url(/src/assets/QRCode.png);
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+	/* For tablets: */
+	.col-s-1 {
+		width: 8.33%;
+	}
+
+	.col-s-2 {
+		width: 16.66%;
+	}
+
+	.col-s-3 {
+		width: 25%;
+	}
+
+	.col-s-4 {
+		width: 33.33%;
+	}
+
+	.col-s-5 {
+		width: 41.66%;
+	}
+
+	.col-s-6 {
+		width: 50%;
+	}
+
+	.col-s-7 {
+		width: 58.33%;
+	}
+
+	.col-s-8 {
+		width: 66.66%;
+	}
+
+	.col-s-9 {
+		width: 75%;
+	}
+
+	.col-s-10 {
+		width: 83.33%;
+	}
+
+	.col-s-11 {
+		width: 91.66%;
+	}
+
+	.col-s-12 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	/* For desktop: */
+	.col-1 {
+		width: 8.33%;
+	}
+
+	.col-2 {
+		width: 16.66%;
+	}
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.col-5 {
+		width: 41.66%;
+	}
+
+	.col-6 {
+		width: 50%;
+	}
+
+	.col-7 {
+		width: 58.33%;
+	}
+
+	.col-8 {
+		width: 66.66%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-10 {
+		width: 83.33%;
+	}
+
+	.col-11 {
+		width: 91.66%;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+}

@@ -1,6 +1,5 @@
 import './styles/header.css';
 import Gradient from 'rgt';
-import GradientButton from 'react-linear-gradient-button';
 
 function Header() {
 	return (
@@ -8,29 +7,28 @@ function Header() {
 			<header className='App-header' role='banner'>
 				<h1 className='site-title'>
 					<Gradient dir='left-to-right' from='#FF4AED' to='#4AFFE9'>
-						Virtual Try On
+						CREATE
 					</Gradient>
 				</h1>
+				<div className="logo" />
 				<nav>
 					<ul class='nav-links'>
-						<li>
-							<a href='Home'>Home</a>
+						<li active>
+							<a href='/'>Home</a>
 						</li>
 						<li>
-							<a href='HowItWorks'>How It Works</a>
+							<a href='#AboutUs'>About Us</a>
 						</li>
 						<li>
-							<a href='AboutUs'>About Us</a>
+							<a href='#HowItWorks'>How It Works</a>
 						</li>
 						<li>
-							<a href='WatchDemo'>Watch Demo</a>
+							<a href='#Demo'>Demo</a>
 						</li>
 					</ul>
 				</nav>
-				<a className='Register' href='Register'>
-					<GradientButton theme='Azure Pop' color='#FF4AED' fontSize='18px'>
-						Register
-					</GradientButton>
+				<a href='#Register'>
+					<button class="Beta">Be part of our Beta App</button>
 				</a>
 			</header>
 		</>

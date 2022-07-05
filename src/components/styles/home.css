@@ -1,22 +1,49 @@
-#gradientWindow {
+.Home-Title {
 	position: absolute;
-	left: 715px;
-	top: 3500px;
-	width: 500px;
-	height: 700px;
-	background: linear-gradient(to left top,
-			rgb(74, 255, 233) 0%
-			/*bottom-right color*/
-			,
-			rgba(139, 181, 241) 25%
-			/*middle color*/
-			,
-			rgb(210, 99, 250) 75%
-			/*top-left color*/
-		),
-		linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-	overflow: hidden;
-	border-radius: 40px;
+	width: 733px;
+	height: 135px;
+	left: 400px;
+	top: 220px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 177.9%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #696666;
+}
+
+.Home-Description {
+	position: absolute;
+	width: 700px;
+	height: 71px;
+	left: 410px;
+	top: 420px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 189.5%;
+	text-align: center;
+	color: #CECECE;
+}
+
+.Create-Avatar {
+	position: absolute;
+	width: 322px;
+	height: 50px;
+	left: 600px;
+	top: 520px;
+	background: linear-gradient(89.94deg, #4AFFE9 -10.63%, #B85EFF 43.84%, #4AFFE9 105.73%);
+	mix-blend-mode: normal;
+	border-radius: 25px;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: rgba(253, 255, 255, 0.8);
+	border: 1px;
 }
 
 /* For mobile phones: */
