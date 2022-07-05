@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
-import Model from '../assets/Brunette_Girl.glb';
+import FemaleModel from '../assets/brunette_girl_with_underwear.gltf';
 
 function FemaleScene() {
 	const canvasRef = useRef();
@@ -38,7 +38,7 @@ function FemaleScene() {
 		dracoLoader.preload();
 		loader.setDRACOLoader(dracoLoader);
 
-		loader.load(Model, gltf => {
+		loader.load(FemaleModel, gltf => {
 			console.log(gltf);
 			Mesh = gltf.scene;
 			Mesh.scale.set(1, 1, 1);
@@ -92,7 +92,7 @@ function MaleScene() {
 		dracoLoader.preload();
 		loader.setDRACOLoader(dracoLoader);
 
-		loader.load(Model, gltf => {
+		loader.load(FemaleModel, gltf => {
 			console.log(gltf);
 			Mesh = gltf.scene;
 			Mesh.scale.set(1, 1, 1);
@@ -146,7 +146,7 @@ function SofiaScene() {
 		dracoLoader.preload();
 		loader.setDRACOLoader(dracoLoader);
 
-		loader.load(Model, gltf => {
+		loader.load(FemaleModel, gltf => {
 			console.log(gltf);
 			Mesh = gltf.scene;
 			Mesh.scale.set(1, 1, 1);
@@ -200,7 +200,7 @@ function AndrewScene() {
 		dracoLoader.preload();
 		loader.setDRACOLoader(dracoLoader);
 
-		loader.load(Model, gltf => {
+		loader.load(FemaleModel, gltf => {
 			console.log(gltf);
 			Mesh = gltf.scene;
 			Mesh.scale.set(1, 1, 1);
