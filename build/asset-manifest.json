@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e577312.css",
+    "main.js": "/static/js/main.be8eee5c.js",
+    "static/media/Brunette_Girl.glb": "/static/media/Brunette_Girl.4392d4f84269d36fcc3a.glb",
+    "static/media/QRCode.png": "/static/media/QRCode.301722ac2ecd1b32db66.png",
+    "static/media/AndrewImage.png": "/static/media/AndrewImage.aaf240a8a78a746beb59.png",
+    "static/media/SofiaImage.png": "/static/media/SofiaImage.c7823dcc1c9bf65fbf8d.png",
+    "index.html": "/index.html",
+    "main.4e577312.css.map": "/static/css/main.4e577312.css.map",
+    "main.be8eee5c.js.map": "/static/js/main.be8eee5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e577312.css",
+    "static/js/main.be8eee5c.js"
+  ]
+}
