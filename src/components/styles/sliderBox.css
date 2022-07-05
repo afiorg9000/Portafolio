@@ -104,16 +104,14 @@
 	top: 3637px;
 	-webkit-appearance: none;
 	border-radius: 24px;
-	background: linear-gradient(
-		270deg,
-		#e1d9c5 0%,
-		#eed5a4 16.67%,
-		#ccb080 32.81%,
-		#b28627 49.06%,
-		#ab6a29 67.97%,
-		#926a42 83.13%,
-		#523b10 100%
-	);
+	background: linear-gradient(270deg,
+			#e1d9c5 0%,
+			#eed5a4 16.67%,
+			#ccb080 32.81%,
+			#b28627 49.06%,
+			#ab6a29 67.97%,
+			#926a42 83.13%,
+			#523b10 100%);
 	outline: none;
 	opacity: 0.7;
 	-webkit-transition: 0.2s;
@@ -127,16 +125,14 @@
 }
 
 .skin-color-slider::-moz-range-thumb {
-	background: linear-gradient(
-		270deg,
-		#e1d9c5 0%,
-		#eed5a4 16.67%,
-		#ccb080 32.81%,
-		#b28627 49.06%,
-		#ab6a29 67.97%,
-		#926a42 83.13%,
-		#523b10 100%
-	);
+	background: linear-gradient(270deg,
+			#e1d9c5 0%,
+			#eed5a4 16.67%,
+			#ccb080 32.81%,
+			#b28627 49.06%,
+			#ab6a29 67.97%,
+			#926a42 83.13%,
+			#523b10 100%);
 	border-radius: 24px;
 	cursor: pointer;
 }
@@ -341,12 +337,32 @@
 	transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.deploy-btn {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	left: 870px;
+	top: 4130px;
+	background: linear-gradient(89.94deg, #4AFFE9 -10.63%, #B85EFF 43.84%, #4AFFE9 105.73%);
+	mix-blend-mode: normal;
+	border-radius: 25px;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	color: rgba(253, 255, 255, 0.8);
+	border: 1px;
+}
+
 /* For mobile phones: */
 [class*='col-'] {
 	width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
+
 	/* For tablets: */
 	.col-s-1 {
 		width: 8.33%;
@@ -398,6 +414,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
 	/* For desktop: */
 	.col-1 {
 		width: 8.33%;

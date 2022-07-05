@@ -128,6 +128,11 @@ function SliderBox() {
 					<text class='exercise-measurement'>(Hr/Wk)</text>
 				</Box>
 			</div>
+			<Link to="/">
+				<button type="button" class="deploy-btn">
+					Deploy
+				</button>
+			</Link>
 		</>
 	);
 }
