@@ -4,6 +4,8 @@ import { Male, Female, Andrew, Sofia } from './Avatars';
 
 function App() {
 	return (
+		{/* These are the routes to the male and female renderer */}
+
 		<Router>
 			<Routes>
 				<Route path='/' element={<Female />}></Route>
