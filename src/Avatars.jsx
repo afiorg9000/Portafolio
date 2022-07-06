@@ -8,6 +8,8 @@ import { AboutUs } from './components/aboutus';
 
 function Male() {
 	return (
+		{/* contains all the male avatar components */}
+
 		<>
 			<Header />
 			<Home />
@@ -21,6 +23,8 @@ function Male() {
 
 function Female() {
 	return (
+		{/* contains all the female avatar components */}
+
 		<>
 			<Header />
 			<Home />
@@ -34,6 +38,8 @@ function Female() {
 
 function Andrew() {
 	return (
+		{/* contains all of Andrews components */}
+
 		<>
 			<Header />
 			<Home />
@@ -47,6 +53,8 @@ function Andrew() {
 
 function Sofia() {
 	return (
+		{/* contains all of Sofias components */}
+
 		<>
 			<Header />
 			<Home />
