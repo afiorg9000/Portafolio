@@ -1,4 +1,6 @@
+/* about title */
 .About-Title {
+	
 	position: absolute;
 	width: 225px;
 	height: 45px;
@@ -12,8 +14,9 @@
 	letter-spacing: 0.01em;
 	color: #000000;
 }
-
+	  /* icreate icon */
 .iCreate {
+
 	position: absolute;
 	width: 225px;
 	height: 45px;
@@ -26,8 +29,9 @@
 	text-align: center;
 	letter-spacing: 0.01em;
 }
-
+	  /* About Us Description */
 .AboutUs-description {
+
 	position: absolute;
 	width: 929px;
 	height: 109px;
@@ -41,8 +45,9 @@
 	letter-spacing: 0.01em;
 	color: #505050;
 }
-
+	  /* team card box*/
 .SofiaBox {
+
 	box-sizing: border-box;
 	width: 529px;
 	height: 315px;
@@ -52,12 +57,14 @@
 	border: 3px solid #F4F4F4;
 	border-radius: 80px;
 }
-
+	  /* Team card hover */
 .SofiaBox:hover {
+
 	border: 3px solid #b85eff;
 }
-
+	  /* sofias name inside box */
 .SofiaName {
+
 	position: absolute;
 	width: 153px;
 	height: 20px;
@@ -69,8 +76,9 @@
 	line-height: 20px;
 	color: #000000;
 }
-
+	  /* Graphic design tag */
 .S-GraphicDesignTag {
+
 	position: absolute;
 	width: 129px;
 	height: 24px;
@@ -78,8 +86,9 @@
 	left: 130px;
 	background: url(/src/assets/GraphicDesignTag.png);
 }
-
+	  /* 3d model integration tag */
 .S-ModelIntTag {
+
 	position: absolute;
 	width: 173px;
 	height: 24px;
@@ -87,8 +96,9 @@
 	left: 86px;
 	background: url(/src/assets/3DModelIntTag.png);
 }
-
+	  /* Single t */
 .S-TransferFaceTag {
+
 	position: absolute;
 	width: 117px;
 	height: 24px;
@@ -96,8 +106,9 @@
 	left: 142px;
 	background: url(/src/assets/TransferFaceTag.png);
 }
-
+	  /* React Logo */
 .S-ReactLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -105,8 +116,9 @@
 	left: 32px;
 	background: url(/src/assets/ReactLogo.png);
 }
-
+	  /* javascript logo */
 .S-JSLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -114,8 +126,9 @@
 	left: 79px;
 	background: url(/src/assets/JSLogo.png);
 }
-
+	  /* Figma Logo */
 .S-FigmaLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -123,8 +136,9 @@
 	left: 126px;
 	background: url(/src/assets/FigmaLogo.png);
 }
-
+	  /* Blender logo */
 .S-BlenderLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -132,8 +146,9 @@
 	left: 173px;
 	background: url(/src/assets/BlenderLogo.png);
 }
-
+	  /* Three.js logo */
 .S-ThreeJSLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -141,8 +156,9 @@
 	left: 220px;
 	background: url(/src/assets/ThreeJSLogo.png);
 }
-
+	  /* Sofia Face */
 .SofiaFace {
+
 	position: absolute;
 	width: 200px;
 	height: 222px;
@@ -151,8 +167,9 @@
 	background: url(/src/assets/SofiaImage.png);
 	border-radius: 60px;
 }
-
+	  /* Linked in LOGO */
 .S-LinkedInLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -161,8 +178,9 @@
 	cursor: pointer;
 	background: url(/src/assets/LinkedInLogo.png);
 }
-
+	  /* Github Logo */
 .S-GithubLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -171,8 +189,9 @@
 	cursor: pointer;
 	background: url(/src/assets/GithubLogo.png);
 }
-
+	  /* Twitter logo */
 .S-TwitterLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -181,8 +200,9 @@
 	cursor: pointer;
 	background: url(/src/assets/TwitterLogo.png);
 }
-
+	  /* Andrew Team Card box */
 .AndrewBox {
+
 	position: absolute;
 	width: 542px;
 	height: 319px;
@@ -192,12 +212,14 @@
 	border: 3px solid #F4F4F4;
 	border-radius: 80px;
 }
-
+	    /* andrew card hover */
 .AndrewBox:hover {
+
 	border: 3px solid #b85eff;
 }
-
+	  /* Andrew name */
 .AndrewName {
+
 	position: absolute;
 	width: 200px;
 	height: 20px;
@@ -209,8 +231,9 @@
 	line-height: 20px;
 	color: #000000;
 }
-
+	  /* front end tag in card */
 .A-FrontEndDevTag {
+
 	position: absolute;
 	width: 195px;
 	height: 24px;
@@ -218,8 +241,9 @@
 	left: 278px;
 	background: url(/src/assets/FrontEndDevTag.png);
 }
-
+	  /* Model Integration tag */
 .A-ModelIntTag {
+
 	position: absolute;
 	width: 173px;
 	height: 24px;
@@ -227,8 +251,9 @@
 	left: 278px;
 	background: url(/src/assets/3DModelIntTag.png);
 }
-
+	  /* Transfer Face TAG */
 .A-TransferFaceTag {
+
 	position: absolute;
 	width: 117px;
 	height: 24px;
@@ -236,8 +261,9 @@
 	left: 278px;
 	background: url(/src/assets/TransferFaceTag.png);
 }
-
+	  /* React Logo */
 .A-ReactLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -245,8 +271,9 @@
 	left: 278px;
 	background: url(/src/assets/ReactLogo.png);
 }
-
+	  /* Javascript logo */
 .A-JSLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -254,8 +281,9 @@
 	left: 325px;
 	background: url(/src/assets/JSLogo.png);
 }
-
+	  /* HTML Logo */
 .A-HTML5Logo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -263,8 +291,9 @@
 	left: 372px;
 	background: url(/src/assets/HTML5Logo.png);
 }
-
+	  /* CSS logo */
 .A-CSSLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -272,8 +301,9 @@
 	left: 419px;
 	background: url(/src/assets/CSSLogo.png);
 }
-
+	  /* Python Logo */
 .A-PythonLogo {
+
 	position: absolute;
 	width: 39px;
 	height: 39px;
@@ -282,8 +312,9 @@
 	background: url(/src/assets/PythonLogo.png);
 }
 
-
+	  /* Andrew face */
 .AndrewFace {
+
 	position: absolute;
 	width: 200px;
 	height: 222px;
@@ -292,8 +323,9 @@
 	background: url(/src/assets/AndrewImage.png);
 	border-radius: 60px;
 }
-
+	  /* linked in logo */
 .A-LinkedInLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -302,8 +334,9 @@
 	cursor: pointer;
 	background: url(/src/assets/LinkedInLogo.png);
 }
-
+	  /* github logo */
 .A-GithubLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -312,8 +345,9 @@
 	cursor: pointer;
 	background: url(/src/assets/GithubLogo.png);
 }
-
+	  /* Twitter logo */
 .A-TwitterLogo {
+
 	position: absolute;
 	width: 30px;
 	height: 30px;
