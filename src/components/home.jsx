@@ -1,5 +1,7 @@
 import "./styles/home.css";
 
+{/*This is the Home function that contains all the contents of the principal home page*/}
+
 function Home() {
 	return (
 		<>
