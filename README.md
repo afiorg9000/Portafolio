@@ -14,6 +14,8 @@ The app supports the models for a male and female body with options to modify fo
 * Inseam
 * Exercise
 
+![LinkedIn Blog Post](https://www.linkedin.com/pulse/portfolio-project-blog-post-icreate-andrew-gonz%25C3%25A1lez/?trackingId=%2Bm%2FKAV1LRMCQePRhpW7k9A%3D%3D)
+
 # Installation
 
 To run this on your browser, you need to clone this repo and run the following command on your terminal.
