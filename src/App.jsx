@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Male, Female, Andrew, Sofia } from './Avatars';
 
+/* These are the routes to the male and female renderer */
+
 function App() {
 	return (
-		{/* These are the routes to the male and female renderer */}
 
 		<Router>
 			<Routes>

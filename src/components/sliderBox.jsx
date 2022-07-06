@@ -3,7 +3,7 @@ import { Slider, Box } from '@mui/material';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-{/*This is the sliderbox function that contains all the sliders and limits and gender buttons for the page*/}
+/*This is the sliderbox function that contains all the sliders and limits and gender buttons for the page*/
 
 function SliderBox() {
 	// The units of measurement are in cm & kg
