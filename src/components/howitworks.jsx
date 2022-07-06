@@ -1,6 +1,8 @@
 import "./styles/howitworks.css";
 import Gradient from 'rgt';
 
+{/*This is the how it works function that contains all the code for the how it works page*/}
+
 function HowItWorks() {
 	return (
 		<>
