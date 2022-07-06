@@ -1,3 +1,4 @@
+/* Our features title */
 .OurFeatures-Title {
 	position: absolute;
 	width: 213px;
@@ -12,7 +13,7 @@
 	letter-spacing: 0.01em;
 	color: #000000;
 }
-
+/* Features */
 .Features {
 	position: absolute;
 	width: 213px;
@@ -28,7 +29,7 @@
 	color: #000000;
 }
 
-
+/* ody visualizer title */
 .Body-Visualizer-Title {
 	position: absolute;
 	width: 184px;
@@ -42,7 +43,7 @@
 	letter-spacing: 0.01em;
 	color: #000000;
 }
-
+/* Body Visualizer text */
 .Body-Visualizer-Text {
 	position: absolute;
 	width: 884px;
@@ -57,7 +58,7 @@
 	text-align: center;
 	color: #505050;
 }
-
+/* explore */
 .Explore {
 	position: absolute;
 	width: 191px;
@@ -76,7 +77,7 @@
 	border: 1px;
 	cursor: pointer;
 }
-
+/* QRCODE */
 .QRCode {
 	position: absolute;
 	width: 1200px;
