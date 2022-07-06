@@ -5,6 +5,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
 import FemaleModel from '../assets/brunette_girl_with_underwear.gltf';
 
+{/*This is the female model avatar creation and her specific scene creation*/}
+
 function FemaleScene() {
 	const canvasRef = useRef();
 
@@ -58,6 +60,8 @@ function FemaleScene() {
 	}, []);
 	return <canvas ref={canvasRef} id='gradientWindow' />;
 }
+
+{/*This is the male model avatar creation and his specific scene creation*/}
 
 function MaleScene() {
 	const canvasRef = useRef();
@@ -113,6 +117,8 @@ function MaleScene() {
 	return <canvas ref={canvasRef} id='gradientWindow' />;
 }
 
+{/*This is the Sofia model avatar creation and her specific scene creation*/}
+
 function SofiaScene() {
 	const canvasRef = useRef();
 
@@ -166,6 +172,8 @@ function SofiaScene() {
 	}, []);
 	return <canvas ref={canvasRef} id='gradientWindow' />;
 }
+
+{/*This is the Andrew model avatar creation and his specific scene creation*/}
 
 function AndrewScene() {
 	const canvasRef = useRef();
