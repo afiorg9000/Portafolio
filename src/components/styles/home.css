@@ -1,3 +1,4 @@
+/* Home Nav */
 .Home-Title {
 	position: absolute;
 	width: 733px;
@@ -13,6 +14,7 @@
 	color: #696666;
 }
 
+/* landing page secription */
 .Home-Description {
 	position: absolute;
 	width: 700px;
@@ -26,7 +28,7 @@
 	text-align: center;
 	color: #CECECE;
 }
-
+/* button */
 .Create-Avatar {
 	position: absolute;
 	width: 322px;
