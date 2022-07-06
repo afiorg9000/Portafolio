@@ -1,5 +1,6 @@
 /* contains all  */
 
+/*Body contains all the web page specifications and fonts*/
 body {
   position: relative;
   margin-bottom: 3800px;
@@ -10,11 +11,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Code contains all the family fonts that we want to be predetermined*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+/*HTML contains the smooth animation for the web site*/
 html {
   scroll-behavior: smooth;
 }
