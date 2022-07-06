@@ -1,3 +1,4 @@
+/* button gender group */
 .btn-group {
 	position: absolute;
 	width: 323px;
@@ -95,7 +96,7 @@
 	left: 237px;
 	color: #b85eff;
 }
-
+/* skin color slider */
 .skin-color-slider {
 	position: absolute;
 	width: 225px;
@@ -155,6 +156,7 @@
 	top: 3685px;
 }
 
+/* ALL Measurement slider */
 .height-text {
 	position: absolute;
 	left: 315px;
