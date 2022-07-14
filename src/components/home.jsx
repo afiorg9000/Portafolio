@@ -1,6 +1,7 @@
 import "./styles/home.css";
+import React from "react";
 
-{/*This is the Home function that contains all the contents of the principal home page*/}
+/*This is the Home function that contains all the contents of the principal home page*/
 
 function Home() {
 	return (

@@ -1,7 +1,8 @@
 import './styles/header.css';
 import Gradient from 'rgt';
+import React from 'react';
 
-{/*This is the Header function that contains all nav bar and header contents*/}
+/*This is the Header function that contains all nav bar and header contents*/
 
 function Header() {
 	return (

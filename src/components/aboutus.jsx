@@ -1,7 +1,8 @@
 import "./styles/aboutus.css";
 import Gradient from 'rgt';
+import React from "react";
 
-{/*This is the About Us function that contais all the contents of the about us page*/}
+/*This is the About Us function that contais all the contents of the about us page*/
 
 function AboutUs() {
 	return (
